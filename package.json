@@ -8,28 +8,28 @@
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
-    "@shopify/app-bridge-react": "^1.29.0",
-    "@shopify/app-bridge-utils": "^1.29.0",
-    "@shopify/koa-shopify-auth": "^3.2.0",
-    "@shopify/polaris": "^6.0.1",
-    "@shopify/shopify-api": "^1.0.0",
+    "@shopify/app-bridge-react": "^2.0.4",
+    "@shopify/app-bridge-utils": "^2.0.4",
+    "@shopify/koa-shopify-auth": "^4.1.4",
+    "@shopify/polaris": "^7.0.0",
+    "@shopify/shopify-api": "^1.4.1",
     "@zeit/next-css": "^1.0.1",
-    "ansi-regex": "^5.0.1",
     "apollo-boost": "^0.4.9",
-    "dotenv": "^8.2.0",
+    "dotenv": "^10.0.0",
     "isomorphic-fetch": "^3.0.0",
-    "koa": "^2.13.1",
-    "koa-router": "^10.0.0",
-    "koa-session": "^6.1.0",
-    "next": "10.0.7",
-    "ngrok": "^3.4.0",
-    "react": "17.0.1",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "koa-session": "^6.2.0",
+    "next": "^11.1.2",
+    "ngrok": "^4.2.2",
+    "react": "^17.0.2",
     "react-apollo": "^3.1.5",
-    "react-dom": "17.0.1",
+    "react-dom": "^17.0.2",
     "store-js": "^2.0.4",
-    "webpack": "^4.46.0"
+    "webpack": "^5.58.2"
   },
   "devDependencies": {
-    "graphql": "^15.5.0"
+    "graphql": "^15.6.1",
+    "yarn-upgrade-all": "^0.5.4"
   }
 }
